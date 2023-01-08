@@ -1,4 +1,8 @@
 import AsyncComp from "./components/AsyncComp";
+import ClickOutSideComp from "./components/ClickOutSideComp";
+import CookieComp from "./components/CookieComp";
+import CopyToClipboardComp from "./components/CopyToClipboardComp";
+import DarkModeComp from "./components/DarkModeComp";
 import DebounceComp from "./components/DebounceComp";
 import DeepCompareEffect from "./components/DeepCompareEffectComp";
 import EffectOnceComp from "./components/EffectOnceComp";
@@ -12,6 +16,7 @@ import StateWithHistoryComp from "./components/StateWithHistoryComp";
 import StateWithValidationComp from "./components/StateWithValidationComp";
 import TimeOutComp from "./components/TimeOutComp";
 import ToggleComp from "./components/ToggleComp";
+import TranslationComp from "./components/TranslationComp";
 import WindowSizeComp from "./components/WindowSizeComp";
 import useLocalStorage from "./hooks/useLocalStorage";
 import useUpdateLogger from "./hooks/useUpdateLogger";
@@ -69,7 +74,22 @@ function App() {
       <SizeComp />
 
       <br /> <br />
-      <EffectOnceComp />
+      {/* <EffectOnceComp /> */}
+
+      <br /> <br />
+      <ClickOutSideComp />
+
+      <br /> <br />
+      <DarkModeComp />
+
+      <br /> <br />
+      <CopyToClipboardComp />
+
+      <br /> <br />
+      <CookieComp />
+
+      <br /> <br />
+      <TranslationComp />
     </>
   );
 }

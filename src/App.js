@@ -7,6 +7,7 @@ import DebounceComp from "./components/DebounceComp";
 import DeepCompareEffect from "./components/DeepCompareEffectComp";
 import EffectOnceComp from "./components/EffectOnceComp";
 import EventListenerComp from "./components/EventListenerComp";
+import ExitPromptComp from "./components/ExitPromptComp";
 import GeolocationComp from "./components/GeolocationComp";
 import MediaQueryComp from "./components/MediaQueryComp";
 import OnScreenComp from "./components/OnScreenComp";
@@ -90,6 +91,9 @@ function App() {
 
       <br /> <br />
       <TranslationComp />
+
+      <br /> <br />
+      <ExitPromptComp />
     </>
   );
 }
